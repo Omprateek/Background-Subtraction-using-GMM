@@ -2,7 +2,7 @@
 
 # Background Subtraction using Gaussian Mixture Models (GMM)
 
-This project implements a custom Gaussian Mixture Model (GMM) for background subtraction in images and videos. GMM is a probabilistic model that represents a mixture of multiple Gaussian distributions, commonly used for modeling pixel distributions in background subtraction tasks.
+This project implements a custom Gaussian Mixture Model (GMM) for background subtraction in images and videos. GMM is a statistical model that represents data as a mixture of Gaussian distributions, commonly applied to model pixel distributions in background subtraction tasks.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -14,12 +14,12 @@ This project implements a custom Gaussian Mixture Model (GMM) for background sub
 
 ## Project Overview
 
-This implementation focuses on using a GMM for background subtraction in visual data. The primary steps include:
+This project applies GMM for efficient background subtraction in visual data. The key components include:
 
-1. **Building the GMM Class**: Implements GMM from scratch with methods for initialization, expectation-maximization (E-step and M-step), and prediction.
-2. **Video Frame Processing**: Helper functions to display video frames or save them to a file, enabling analysis and visualization of GMM-based background subtraction.
-3. **Application to Background Subtraction**: Uses pixel distributions modeled by GMM to separate foreground (moving objects) from the background.
-
+1. **Custom GMM Class**: Implements GMM from scratch, featuring initialization, expectation-maximization (E-step and M-step), and prediction methods.
+2. **Frame Processing Utilities**: Helper functions for displaying or saving video frames to analyze and visualize background subtraction.
+3. **Foreground-Background Separation**: Uses pixel distribution modeling with GMM to distinguish moving objects (foreground) from static backgrounds.
+   
 ## Installation
 
 To run this project, you will need the following dependencies:
